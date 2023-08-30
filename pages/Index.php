@@ -16,9 +16,9 @@
         <form action="post" id="form1">
             <p>Message</p>
             <textarea name="message" ></textarea>
-            <input type="text" name="name" placeholder="Name">
-            <input type="text" name="email" placeholder="Email">
-            <input type="text" name="subject" placeholder="Subject">
+            <input type="text" name="name" placeholder="Name" id="i1">
+            <input type="text" name="email" placeholder="Email" id="i2">
+            <input type="text" name="subject" placeholder="Subject" id="i3">
             <input type="submit" value="Send" id="button">
         </form>
     </div>
