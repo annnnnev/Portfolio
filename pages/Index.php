@@ -13,6 +13,14 @@
     </div>
     <div class="contact">
         <h1>Contact</h1>
+        <form action="post" id="form1">
+            <p>Message</p>
+            <textarea name="message" ></textarea>
+            <input type="text" name="name" placeholder="Name">
+            <input type="text" name="email" placeholder="Email">
+            <input type="text" name="subject" placeholder="Subject">
+            <input type="submit" value="Send" id="button">
+        </form>
     </div>
 </body>
 </html>

@@ -38,5 +38,40 @@ body {
     margin: 80px 40px;
 }
 .contact h1{
+    position: absolute;
     color: white;
+    margin-left: 42vw;
+    margin-right: 42vw;
+}
+
+/* contact form */
+#form1{
+    display: grid;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    max-height: 600px;
+    margin: 80px;
+    grid
+}
+#form1 textarea {
+    width: 500px;
+    height: 260px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+#form1 input {
+    width: 500px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+#button {
+    width: 120px !important;
 }
