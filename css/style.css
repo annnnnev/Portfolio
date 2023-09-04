@@ -7,16 +7,29 @@ body {
 }
 .nav {
     background-color: dodgerblue;
-    width: 97.5vw;
+    width: 100vw;
     display: block;
-    height: 30px;
-    padding: 20px;
-    font-size: 25px;;
+    height: 40px;
+    font-size: 20px;;
+    padding-top: 10px;
 }
 .nav a {
     color: white;
     text-decoration: none;
-    margin-right: 30px;
+    padding: 30px;
+}
+.nav:hover {
+    animation: navbar 0.6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes navbar{
+    0% {
+        height: 40px;
+    }
+    100% {
+        height: 60px;
+    }
 }
 
 .inleiding {
@@ -55,6 +68,8 @@ body {
     grid-template-rows: auto auto;
     padding: 200px;
     padding-top: 30px !important;
+    grid-column-gap: 80px;
+    margin-left: -60px;
 }
 #form1 textarea {
     width: 500px;

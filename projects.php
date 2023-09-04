@@ -6,6 +6,6 @@
     <title>Projecten</title>
 </head>
 <body>
-    <?php include '../util/navbar.html';?>
+    <?php include 'util/navbar.html';?>
 </body>
 </html>
