@@ -7,6 +7,9 @@
     <script src="js/script.js" defer></script>
 </head>
 <body>
+
+<!-- <?php //require 'util/database.php'?> -->
+<!-- <?php //while($res = $projects->fetcharray())?> -->
 <div display="none" id="hiddendiv" width="0" height="0"></div>
 
     <?php include 'util/navbar.html';?>
