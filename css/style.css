@@ -70,7 +70,7 @@ body {
 
 /* first text */
 .inleiding {
-    display: flex;
+    display: grid;
     margin: 80px 40px;
     color: white;
 }
@@ -80,7 +80,6 @@ body {
     box-shadow: -3px 3px 3px 3px rgba(122, 122, 122, 0.4);
 }
 .inleiding p {
-    padding: 40px;
     
 }
 
