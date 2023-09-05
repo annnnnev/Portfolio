@@ -74,6 +74,7 @@ body {
     margin: 80px 40px;
     color: white;
     height: 700px;
+    position: fixed;
 }
 .inleiding img{
     margin-top: 50px;
@@ -83,14 +84,18 @@ body {
 }
 .inleiding div {
  padding: 40px;   
+ 
 }
 
 /* contact */
 .contact {
+    margin-top: 900px;
     color: white;
     display: block;
     text-align: center;
     height: 800px;
+    position: relative;
+    background-color: #CBCCD2;
 }
 
 /* contact form */
