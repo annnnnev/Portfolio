@@ -17,14 +17,14 @@
     <div class="inleiding" id="inleiding">   
         <div>
         <h1>Over mij</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <!-- Ik ben Anne, ik ben 17 jaar en studeer op het Grafisch lyceum Rotterdam.<br>
-        Ik ben een 2e jaars student en doe Software Developement.<br>
-        Ik heb voor deze opleiding gekozen omdat ik interesse heb in programmeren.<br>
-        Ik heb al een beetje ervaring met programmeren en ik vind het leuk om mooie en interactieve websites te maken.<br>
-             -->
+        <p>
+        Ik ben Anne, ik ben 17 jaar en studeer op het Grafisch lyceum Rotterdam.<br>
+        Ik ben een 2e jaars student en doe Software Developement.
+        Ik heb voor deze opleiding gekozen omdat ik interesse heb in programmeren.
+        Ik heb al een beetje ervaring met programmeren en ik <br>vind het leuk om mooie en interactieve websites en applicaties te maken.<br>
+            </p>
         </div>
-        <img src="media/kanye.jpg" alt="" >
+        <img src="media/kanye.JPG" alt="" >
     </div>
     
     <div class="contact" id="Contact">
@@ -37,7 +37,13 @@
             <textarea name="message" id=”ContactCommentt”></textarea>
             <input type="submit" value="Send" id="button">
         </form>
+        <div id="footer">
+        <a href="www.linkedin.com/in/anne-vos-b6784924b"><img src="media/linkedin.png" alt="Linkedin"></a>
+        <a href="https://www.instagram.com/___ann__e/"><img src="media/insta.png" alt="instagram"></a>
+        <a href="media/portfolio.pdf" id="pdf">Download portfolio.pdf</a>
+        </div>
     </div>
+    
     
 </body>
 </html>

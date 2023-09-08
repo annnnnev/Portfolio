@@ -93,7 +93,7 @@ body {
     color: white;
     display: block;
     text-align: center;
-    height: 800px;
+    height: 700px;
     position: relative;
     background-color: #CBCCD2;
 }
@@ -107,6 +107,7 @@ body {
     flex-direction: column;
     text-align: start;
     align-items: center;   
+    margin-bottom: 30px;
 }
 #form1 textarea {
     width: 500px;
@@ -135,6 +136,7 @@ body {
     background-color: dodgerblue;
     color: white;
     font-size: large !important;
+    
 }
 #button:hover{
     background-color: rgba(95, 95, 148, 0.8);
@@ -143,6 +145,57 @@ body {
 
 /* footer */
 #footer {
-    margin-top: 800px;
+    background-color: dodgerblue;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+}
+#footer a {
+    color: white;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    float: left;
+}
+#footer img{
+    margin-top: 5px;
+    max-width: 35px;
+}
+#pdf{
     position: absolute;
+    margin-left: 89%;
+    margin-right: 2%;
+    text-align: center;
+    background-color: white;
+    color: dodgerblue !important;
+    border-radius: 3px;
+    margin-top: 15px;
+    font-size: 15px !important;
+}
+#pdf:hover{
+    background-color: rgb(225, 225, 225);
+    transition: 1s;
+}
+#projects {
+    text-align: center;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    color: white;
+}
+.team{
+    color: whitesmoke !important;
+    font-size: small;
+}
+
+#projects a{
+    color: rgb(78, 167, 255);
+}
+
+#project{
+    margin-bottom: 210px;
+    margin-top: 100px;
+}
+#project img{
+    height: 400px;
 }
