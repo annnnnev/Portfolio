@@ -141,3 +141,8 @@ body {
     transition: 1s;
 }
 
+/* footer */
+#footer {
+    margin-top: 800px;
+    position: absolute;
+}
